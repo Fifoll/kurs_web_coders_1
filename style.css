@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+header {
+    position: relative;
+    background-image: url("img/bg_header.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: auto;
+}
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: rgb(224, 119, 119);
+}
+
+h1:hover{
+    border: 2px solid rgb(70, 27, 27);
+    background-color: rgb(70, 27, 27);
+    box-shadow: 0 0 15px #fff;
+}
