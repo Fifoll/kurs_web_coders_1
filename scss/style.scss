@@ -4,7 +4,7 @@ $h1-color: #fff;
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
 }
 header {
@@ -30,7 +30,6 @@ h1{
 }
 
 h1:hover{
-    border: 2px solid rgb(70, 27, 27);
-    background-color: rgb(70, 27, 27);
+    background-color: transparent;
     box-shadow: 0 0 15px #fff;
 }
